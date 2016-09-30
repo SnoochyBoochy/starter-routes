@@ -1,5 +1,14 @@
-###Description of Bug
 
-###Expected Behavior
+### Link
 
-###Steps Used to Fix the Bug
+### Location	
+
+### Expected 
+
+### Routing Strategy	
+
+### Required	
+
+### How to Fix It	
+
+### Hint
