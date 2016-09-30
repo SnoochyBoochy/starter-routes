@@ -8,5 +8,11 @@ Neil Brar
 
 ###September 30, 2016###
 
+    Added - Bingo controller to handle and fix issue #7 @Zack
+          - Routes rule added 
+
+    Added - shuck method in the Welcome controller to fix issue #4 @Zack
+          - Routes rule added
+
 (2016-09-30)
     Added - First controller to handle and fix issue #1 @Zack
