@@ -35,7 +35,17 @@ class First extends Application
 		$this->data['mug'] = $source['mug'];
 		
 		$this->render();
+        }
+        
+        public function zzz(){
+            $this->data['pagebody'] = 'justone';
             
-            
+            $source = $this->quotes->get(1);
+		
+            $this->data['what'] = $source['what'];
+            $this->data['who'] = $source['who'];
+            $this->data['mug'] = $source['mug'];
+		
+            $this->render();
         }
 }
