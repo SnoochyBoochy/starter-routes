@@ -49,9 +49,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+$route['lock/(:any)/(:any)'] = "welcome/shucks/$1";
+$route['([a-zA-Z]{4})/bingo'] = "bingo/index";
+$route['comp([0-9]+)/([a-zA-Z]+)'] = 'wise/bingo';
+$route['show/(:num)'] = 'first/gimme/$1';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
 $route['dunno'] = function() {
     $source = 'assets/images/FriendlyJuggalos.jpg'; // an image you provide
     // set the mime type for that image
@@ -60,3 +65,6 @@ $route['dunno'] = function() {
     readfile($source); // dish it
     die(); // and we don't have to go any further
 };
+
+$route['sleep'] = 'first/zzz/$1';
+
