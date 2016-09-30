@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['lock/(:any)/(:any)'] = "welcome/shucks/$1";
 $route['([a-zA-Z]{4})/bingo'] = "bingo/index";
-
+$route['comp([0-9]+)/([a-zA-Z]+)'] = 'wise/bingo';
 $route['show/(:num)'] = 'first/gimme/$1';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';

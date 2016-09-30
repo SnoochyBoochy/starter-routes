@@ -8,6 +8,10 @@ Neil Brar
 
 ###September 30, 2016###
 
+(2016-09-30)
+     Added - Added Wise controller & added a route to fix issue #8 @neil
+
+(2016-09-30)
     Added - Bingo controller to handle and fix issue #7 @Zack
           - Routes rule added 
 
