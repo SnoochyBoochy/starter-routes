@@ -10,12 +10,8 @@ class Bingo extends Application
 		parent::__construct();
 	}
 
-	/**
-	 * Homepage for our app
-	 */
 	public function index()
 	{
-		// this is the view we want shown
 		$this->data['pagebody'] = 'justone';
 
 		$source = $this->quotes->get(5);

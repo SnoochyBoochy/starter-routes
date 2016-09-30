@@ -10,9 +10,6 @@ class First extends Application
 		parent::__construct();
 	}
 
-	/**
-	 * Homepage for our app
-	 */
 	public function index()
 	{
 		// this is the view we want shown
