@@ -26,5 +26,19 @@ class First extends Application
 		
 		$this->render();
 	}
-
+        
+        public function gimme($id) 
+        {
+            $this->data['pagebody'] = 'justone';
+            
+                $source = $this->quotes->get($id);
+		
+		$this->data['what'] = $source['what'];
+		$this->data['who'] = $source['who'];
+		$this->data['mug'] = $source['mug'];
+		
+		$this->render();
+            
+            
+        }
 }
