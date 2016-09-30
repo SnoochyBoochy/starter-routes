@@ -8,6 +8,10 @@ Neil Brar
 
 ###September 30, 2016###
 
-Linked image to Anonymous image on homepage. (Juggalos 4 lyfe!)
+(2016-09-30)
+    Added - Issue #2: Added a new controller in /last to fix issue #2 @neil
+    Added - Issue #5: Added gimme method to First controller, and added a 
+                      route @neil 
 
-Added - First controller to handle and fix issue #1 @Zack
+(2016-09-30)
+    Added - First controller to handle and fix issue #1 @Zack
