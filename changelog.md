@@ -8,7 +8,9 @@ Neil Brar
 
 ###September 30, 2016###
 
-     Added - Added Wise controller & added a route to fix issue #8 @neil
+    Added - Hook to replace 4 letter words with "****" @Zack @Jason @Neil
+
+    Added - Added Wise controller & added a route to fix issue #8 @neil
 
     Added - Fixed link for "Monhouse". Isse #9
 
