@@ -11,3 +11,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	https://codeigniter.com/user_guide/general/hooks.html
 |
 */
+
+/* Defines the hook to be used to modify the webpage. */
+$hook['display_override'] = array(
+                                'class'    => 'MyHooks',
+                                'function' => 'massage_data',
+                                'filename' => 'MyHooks.php',
+                                'filepath' => 'hooks',
+                                'params'   => array('controller')
+                                );
